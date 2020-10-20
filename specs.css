@@ -1,0 +1,76 @@
+.head {
+  border: 5px solid black;
+  text-align: center;
+}
+
+.main {
+  font-size: 90px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.sub {
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: cursive;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.flex-container > div {
+  border: 5px solid black;
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1 {
+  background-image: url(///home/user/Desktop/End%20Of%20Module%20Project/Card%20mountain.jpeg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background-image: url(///home/user/Desktop/End%20Of%20Module%20Project/beach%20card.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: url(///home/user/Desktop/End%20Of%20Module%20Project/arc%20card.jpg);
+  height: 100px;
+  width: 50px;
+  align-content: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.para1 {
+  justify-content: center;
+  font-weight: bold;
+}
